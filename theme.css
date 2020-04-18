@@ -3,6 +3,10 @@ body {
 	/*background-color: #f0efeb;*/
 }
 
+h3 {
+	padding-top: 10px;
+}
+
 .center-txt {
 	text-align: center;
 }
@@ -20,9 +24,13 @@ body {
 }
 
 .content {
-	max-width: 500px;
+	max-width: 600px;
 	margin: auto;
-	padding-top: 30px;
+	/*padding-top: 30px;*/
+}
+
+.content-break {
+	max-width: 450px;
 }
 
 footer {
