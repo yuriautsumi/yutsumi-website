@@ -7,20 +7,16 @@ h3 {
 	padding-top: 10px;
 }
 
-.center-txt {
-	text-align: center;
+.left-txt {
+	text-align: left;
 }
 
 .center-elt {
 	margin: auto;
 }
 
-.sansserif {
-	font-family: 'Montserrat', sans-serif;
-}
-
-.monospace {
-	font-family: 'Cutive Mono', monospace;
+.serif {
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .content {
@@ -44,12 +40,12 @@ nav {
 }
 
 ul.nav{
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
+    /* list-style:none; */
+    margin:10px;
+    padding:10px;
+    text-align:left;
 }
-
+/* 
 ul.nav li{
     display:inline-block;
 }
@@ -57,9 +53,9 @@ ul.nav li{
 ul.nav a{
     display:inline-block;
     padding:10px;
-}
+} */
 
-
+/* 
 li.nav a.nav {
   display: inline-block;
   color: white;
@@ -75,4 +71,4 @@ li.nav a.nav:hover {
 
 li.nav a.active {
   background-color: #111;
-}
+} */
