@@ -45,6 +45,20 @@ ul.nav{
     padding:10px;
     text-align:left;
 }
+
+.yuria-photo {
+   max-width:200px; 
+   width:175vw;
+}
+
+.pic {
+  margin:15px;
+}
+
+.project-image{
+  width:225px
+}
+
 /* 
 ul.nav li{
     display:inline-block;
