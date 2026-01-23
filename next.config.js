@@ -78,6 +78,22 @@ module.exports = () => {
           protocol: 'https',
           hostname: 'picsum.photos',
         },
+        {
+          protocol: 'https',
+          hostname: 'news.mit.edu',
+        },
+        {
+          protocol: 'https',
+          hostname: 'www.eecs.mit.edu',
+        },
+        {
+          protocol: 'https',
+          hostname: 'gannett-cdn.com',
+        },
+        {
+          protocol: 'https',
+          hostname: 'upload.wikimedia.org',
+        }
       ],
       unoptimized,
     },

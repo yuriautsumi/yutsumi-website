@@ -1,2 +1,26 @@
 Tailwind-Nextjs-Starter-Blog-1.0.0.zip
-v1/*
+v1
+node_modules
+data/blog/nested-route
+data/blog/code-sample.mdx                                         
+data/blog/deriving-ols-estimator.mdx                              
+data/blog/new-features-in-v1.mdx
+data/blog/github-markdown-guide.mdx                               
+data/blog/pictures-of-canada.mdx
+data/blog/guide-to-using-images-in-nextjs.mdx                     
+data/blog/release-of-tailwind-nextjs-starter-blog-v2.0.mdx
+data/blog/introducing-tailwind-nextjs-starter-blog.mdx            
+data/blog/the-time-machine.mdx
+data/blog/my-fancy-title.mdx
+
+# amplify
+.amplify
+amplify_outputs*
+amplifyconfiguration*
+
+# next.js
+.next
+.contentlayer
+
+# aws
+AWSCLIV2.pkg
