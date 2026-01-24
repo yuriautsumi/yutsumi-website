@@ -336,11 +336,11 @@ const gallery: Gallery = {
       alt: "image",
       orientation: "vertical",
     },
-    {
-      src: "/images/gallery/vertical-10.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
+    // {
+    //   src: "/images/gallery/vertical-10.jpg",
+    //   alt: "image",
+    //   orientation: "vertical",
+    // },
     {
       src: "/images/gallery/vertical-5.JPEG",
       alt: "image",
