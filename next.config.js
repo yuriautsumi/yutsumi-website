@@ -113,5 +113,6 @@ module.exports = () => {
 
       return config
     },
+    enablePrerenderSourceMaps: false,
   })
 }
