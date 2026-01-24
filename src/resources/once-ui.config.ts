@@ -14,7 +14,8 @@ import {
 import { home } from "./index";
 
 // IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
-const baseURL: string = "http://localhost:3000";
+// const baseURL: string = "http://localhost:3000";
+const baseURL: string = "https://z3yjxs3dya.us-east-2.awsapprunner.com";
 
 const routes: RoutesConfig = {
   "/": true,
