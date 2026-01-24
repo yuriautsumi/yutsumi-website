@@ -16,6 +16,16 @@ const nextConfig = {
         hostname: "www.google.com",
         pathname: "**",
       },
+      {
+        protocol: "https",
+        hostname: "news.mit.edu",
+        pathname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "www.eecs.mit.edu",
+        pathname: "**",
+      },
     ],
   },
   sassOptions: {

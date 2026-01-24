@@ -2,14 +2,14 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Yuria",
+  lastName: "Utsumi",
+  name: `Yuria Utsumi`,
+  role: "Machine Learning Engineer",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "America/Chicago", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Japanese"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -25,33 +25,33 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/yuriautsumi",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/yuria-u-977101335/",
     essential: true,
   },
-  {
-    name: "Instagram",
-    icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
-    essential: false,
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
-    essential: true,
-  },
-  {
-    name: "Email",
-    icon: "email",
-    link: `mailto:${person.email}`,
-    essential: true,
-  },
+  // {
+  //   name: "Instagram",
+  //   icon: "instagram",
+  //   link: "https://www.instagram.com/once_ui/",
+  //   essential: false,
+  // },
+  // {
+  //   name: "Threads",
+  //   icon: "threads",
+  //   link: "https://www.threads.com/@once_ui",
+  //   essential: true,
+  // },
+  // {
+  //   name: "Email",
+  //   icon: "email",
+  //   link: `mailto:${person.email}`,
+  //   essential: true,
+  // },
 ];
 
 const home: Home = {
@@ -60,23 +60,23 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Technical problem solving from first principles</>,
   featured: {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
-        <Line background="brand-alpha-strong" vert height="20" />
+        {/* <strong className="ml-4">Once UI</strong>{" "} */}
+        {/* <Line background="brand-alpha-strong" vert height="20" /> */}
         <Text marginRight="4" onBackground="brand-medium">
           Featured work
         </Text>
       </Row>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "/work",
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Yuria, a machine learning engineer who works on AI and Machine Learning Infrastructure. After hours, I like to read and work on technical problem solving.
 </>
   ),
 };
@@ -102,9 +102,8 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Yuria is a United States-based machine learning engineer with a passion for problem solving complex challenges
+        into solutions. Her work spans from AI and machine learning to infrastructure solutions.
       </>
     ),
   },
@@ -113,42 +112,101 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Allianz Life Insurance Company of North America",
+        timeframe: "2024 - 2025",
+        role: "Data Scientist Intern, Data Scientist, Machine Learning Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Automate AI and machine learning model and infrastructure CI/CD in Azure via GitHub Actions, in DEV, QA, & PROD environment.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Research covariate shift, insurance product feature, and bias mitigation through statistical and machine learning simulation and application.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-01.jpg",
+          //   alt: "Once UI Project",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Sociotechnical Systems Research Center",
+        timeframe: "2023 - 2023",
+        role: "Research Assistant",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Assisted on a project on the digital preservation of heritage, as an alternative to traditional preservation methods like museum, documentary, and catalogues. 
+          </>,
+          // <>
+          //   Led a cross-functional team to launch a new product line, contributing to a 15% increase
+          //   in overall company revenue.
+          // </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Institute for Medical Engineering & Science",
+        timeframe: "2020 - 2022",
+        role: "Research Assistant",
+        achievements: [
+          <>
+            Developed tool to surface members for high-risk pregnancy care management, using insurance claims data.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Models to estimate counterfactual outcomes under treatment, to supplement pending RCT.
           </>,
+          <>
+            Research distilling neural network activation feature to infer interpretable clinical phenotypes via Hidden Markov model on a sepsis cohort from MIMIC-III.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Apple",
+        timeframe: "2019 - 2019",
+        role: "Machine Learning Engineer Intern",
+        achievements: [
+          <>
+            Image processing algorithm, computer vision on video, sensor data for motion detection.
+          </>,
+          // <>
+          //   Led a cross-functional team to launch a new product line, contributing to a 15% increase
+          //   in overall company revenue.
+          // </>,
+        ],
+        images: [],
+      },
+      {
+        company: "MIT CSAIL",
+        timeframe: "2019 - 2019",
+        role: "Research Assistant",
+        achievements: [
+          <>
+            Implement feature to customize model for deep learning web application written in Tensorflow JS.
+          </>,
+          // <>
+          //   Led a cross-functional team to launch a new product line, contributing to a 15% increase
+          //   in overall company revenue.
+          // </>,
+        ],
+        images: [],
+      },
+      {
+        company: "MIT Media Lab",
+        timeframe: "2018 - 2018",
+        role: "Research Assistant",
+        achievements: [
+          <>
+            Implementation of domain adaptation algorithm for forecasting & deep learning model.
+          </>,
+          // <>
+          //   Led a cross-functional team to launch a new product line, contributing to a 15% increase
+          //   in overall company revenue.
+          // </>,
         ],
         images: [],
       },
@@ -159,17 +217,17 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Massachusetts Institute of Technology",
+        description: <>M.Eng. Computer Science & Engineering (Artificial Intelligence)</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Massachusetts Institute of Technology",
+        description: <>B.Sc. Computer Science & Engineering (Minor in Mathematics)</>,
       },
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Technical skills",
     skills: [
       {
@@ -235,7 +293,7 @@ const about: About = {
 const blog: Blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Writing about AI and problem solving...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -259,44 +317,44 @@ const gallery: Gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
-      src: "/images/gallery/horizontal-1.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-4.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/horizontal-3.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
       src: "/images/gallery/vertical-1.jpg",
       alt: "image",
       orientation: "vertical",
     },
+    // {
+    //   src: "/images/gallery/vertical-3.JPEG",
+    //   alt: "image",
+    //   orientation: "vertical",
+    // },
+    // {
+    //   src: "/images/gallery/vertical-7.JPEG",
+    //   alt: "image",
+    //   orientation: "vertical",
+    // },
     {
-      src: "/images/gallery/vertical-2.jpg",
+      src: "/images/gallery/vertical-8.JPEG",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/horizontal-2.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-4.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-3.jpg",
+      src: "/images/gallery/vertical-10.jpg",
       alt: "image",
       orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/vertical-5.JPEG",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/vertical-9.JPEG",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/horizontal-1.jpg",
+      alt: "image",
+      orientation: "horizontal",
     },
   ],
 };
