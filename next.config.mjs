@@ -32,6 +32,7 @@ const nextConfig = {
     compiler: "modern",
     silenceDeprecations: ["legacy-js-api"],
   },
+  output: "standalone",
 };
 
 export default withMDX(nextConfig);
