@@ -33,6 +33,11 @@ const nextConfig = {
     silenceDeprecations: ["legacy-js-api"],
   },
   output: "standalone",
+  allowedDevOrigins: [
+    "http://localhost:3000",
+    "https://z3yjxs3dya.us-east-2.awsapprunner.com",
+    "https://yuriautsumi.com",
+  ],
 };
 
 export default withMDX(nextConfig);
