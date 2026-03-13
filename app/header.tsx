@@ -8,7 +8,7 @@ export function Header() {
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           <div key="header-name" className="space-y-2">
               <Link href="/" className="font-medium text-black dark:text-white">
-                Yuria Utsumi
+                Yuria Utsumi（内海ゆりあ）
               </Link>
               <TextEffect
                 as="p"
