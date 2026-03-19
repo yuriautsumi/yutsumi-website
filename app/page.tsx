@@ -53,22 +53,24 @@ function ProjectVideo({ src }: ProjectVideoProps) {
       }}
     >
       <MorphingDialogTrigger>
-        <video
+        <img
           src={src}
-          autoPlay
-          loop
-          muted
-          className="aspect-video w-full cursor-zoom-in rounded-xl"
+          // autoPlay
+          // loop
+          // muted
+          // className="aspect-video w-full cursor-zoom-in rounded-xl"
+          className="aspect-video h-full cursor-zoom-in rounded-xl"
         />
       </MorphingDialogTrigger>
       <MorphingDialogContainer>
         <MorphingDialogContent className="relative aspect-video rounded-2xl bg-zinc-50 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950 dark:ring-zinc-800/50">
-          <video
+          <img
             src={src}
-            autoPlay
-            loop
-            muted
-            className="aspect-video h-[50vh] w-full rounded-xl md:h-[70vh]"
+            // autoPlay
+            // loop
+            // muted
+            // className="aspect-video h-[50vh] w-full rounded-xl md:h-[70vh]"
+            className="aspect-video h-[50vh] h-full rounded-xl md:h-[70vh]"
           />
         </MorphingDialogContent>
         <MorphingDialogClose
@@ -142,7 +144,7 @@ export default function Personal() {
           </p>
         </div>
       </motion.section>
-{/* 
+
       <motion.section
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
@@ -170,7 +172,7 @@ export default function Personal() {
             </div>
           ))}
         </div>
-      </motion.section> */}
+      </motion.section> 
 
       <motion.section
         variants={VARIANTS_SECTION}
