@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     default: 'Yuria Utsumi | Portfolio',
     template: '%s | Portfolio'
   },
-  description:  'Yuria Utsumi is a Machine Learning Engineer.',
+  description:  'Yuria Utsumi is a Software Machine Learning Engineer.',
 };
 
 const geist = Geist({

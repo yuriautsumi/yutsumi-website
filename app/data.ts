@@ -76,7 +76,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     company: 'MIT Institute for Medical Engineering & Science',
     title: 'Graduate Research Assistant',
     start: '2020',
-    end: '2022',
+    end: '2023',
     link: 'http://clinicalml.org/',
     id: 'work2',
   },
