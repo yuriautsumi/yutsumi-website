@@ -49,6 +49,14 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
+    company: 'Teradyne',
+    title: 'Software Machine Learning Engineer',
+    start: '2026',
+    end: 'Present',
+    link: 'https://www.teradyne.com/',
+    id: 'work0',
+  },
+  {
     company: 'Allianz Life',
     title: 'Machine Learning Engineer',
     start: '2024',

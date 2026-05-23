@@ -8,7 +8,7 @@ export function Header() {
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           <div key="header-name" className="space-y-2">
               <Link href="/" className="font-medium text-black dark:text-white">
-                Yuria Utsumi（内海ゆりあ）
+                Yuria Utsumi
               </Link>
               <TextEffect
                 as="p"
@@ -17,7 +17,7 @@ export function Header() {
                 className="text-zinc-600 dark:text-zinc-500"
                 delay={0.5}
               >
-                Machine Learning Engineer
+                Software Machine Learning Engineer
               </TextEffect>
           </div>
 
